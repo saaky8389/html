@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazone Shopping</title>
+    <style>
+        header {
+          color: aliceblue;
+            background-color: rgb(3, 39, 87);
+          
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            height: 35px;
+            padding: 5px;
+            padding-top: 10px;
+            margin-top: 10px;
+            border: 1px solid black;
+        }
+
+        .contain {
+            height: 600px;
+            display: grid;
+            grid-template-columns: 1fr 10fr;
+            border: 1px solid black;
+          
+        
+        }
+        nav{
+            background-color: rgb(3, 39, 87) ;
+            width: 170px;
+        
+        }
+
+        nav li {
+            list-style: none;
+            background-color: rgb(3, 39, 87);
+            width: 90px;
+            border: 1px solid black;
+            margin-top: 10px;
+            margin-bottom: 45px;
+            margin-left: -30px;
+            border-radius: 10px;
+            padding: 10px;
+            text-align: center;
+            color: aliceblue;
+            transition: 2s;
+            font-size: 20px;
+
+
+        }
+        nav li:hover{
+            color:white;
+            background-color:red;
+            transition: 2s;
+        }
+        footer{
+            color: aliceblue;
+            border: 1px solid black;
+            background-color: rgb(3, 39, 87);;
+            text-align: center;
+            font-size: large;
+            font-weight: bold;
+            height: 55px;
+            padding: 5px;
+            padding-top: 10px;
+            margin-bottom: 30px;
+            padding-top: 15px;
+        }
+        iframe{
+            border: none;
+            height: 100%;
+            width: 100%;
+            margin-bottom: -1;
+        }
+        li a{
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+</head>
+
+<body >
+    <header>
+        Amazone Shopping
+    </header>
+    <div class="contain">
+
+        <nav>
+
+            <ul>
+                <li>
+                    <a href="home.html" target="bodyFrame">Home</a>
+                </li>
+                <li>
+                    <a href="electronics.html" target="bodyFrame">Electronics</a>
+                </li>
+                <li>
+                    <a href="fashion.html" target="bodyFrame">Fashion</a>
+                </li>
+                <li>
+                    <a href="footwear.html" target="bodyFrame">Footwear</a>
+                </li>
+            </ul>
+
+        </nav>
+        <main>
+         <iframe name="bodyFrame">body frame </iframe>
+        </main>
+    </div>
+    <footer>
+
+        (C) copy right 2022
+
+    </footer>
+</body>
+
+</html>
